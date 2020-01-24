@@ -1,0 +1,32 @@
+﻿"This is the Job Code file to be used alongside the TB to ADP script. The format of this file is required and when changing values, do not change formating. Job title must mach exactly as it does in TouchBistro. Because Training has the exact same code, the column (3) ""is TRN"" is required to differentiate the two.",,
+Title:,Value:,Is TRN
+Server,600040,
+TOP,920000,
+SKY,100010,
+Host,600020,
+Manager,600010,
+Runner,600047,
+Expo,600048,
+Cook,600050,
+Pantry,600055,
+Dishwasher,600057,
+Bartender,600060,
+BA,600065,
+Security,150010,
+SA,600045,
+Lead Host,600025,
+NL BT/CS,600060,
+Cocktail Server,600040,TRN
+Cocktail Trainer,600040,TRN
+Server Trainer,600040,TRN
+Host Trainer,600020,TRN
+Manager Trainer,600010,TRN
+Runner Trainer,600047,TRN
+Expo Trainer,600048,TRN
+Cook Trainer,600050,TRN
+Pantry Trainer,600055,TRN
+Dishwasher Trainer,600057,TRN
+Bartender Trainer,600060,TRN
+BA Trainer,600065,TRN
+Security Trainer,150010,TRN
+SA Trainer,600045,TRN

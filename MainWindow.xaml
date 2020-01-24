@@ -1,0 +1,33 @@
+﻿<Window x:Name="MainWindow1" x:Class="TBtoADPcsharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TBtoADPcsharp"
+        mc:Ignorable="d"
+        Title="Waikiki Business Plaza: TouchBistro to ADP" Height="371.829" Width="388.487" WindowStartupLocation="CenterOwner">
+    <Grid x:Name="Grid" Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <RadioButton x:Name="SkyRadio" Content="Sky Waikiki" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" GroupName="venue"/>
+        <RadioButton x:Name="TowRadio" Content="Top of Waikiki" Margin="100,34,177,0" VerticalAlignment="Top" GroupName="venue" Checked="TowRadio_Checked"/>
+        <Label x:Name="VenueLabel" Content="Select Venue:" HorizontalAlignment="Left" Margin="10,8,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="HolidayLabel" Content="Select Holiday File:" HorizontalAlignment="Left" Margin="10,66,0,0" FontWeight="Bold" Height="25" VerticalAlignment="Top"/>
+        <Button x:Name="HolidayButton" Content="Browse" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="75" Click="HolidayButton_Click"/>
+        <TextBox x:Name="HolidayFileTextBox" Height="20" Margin="90,91,23,0" Text="File" VerticalAlignment="Top" IsReadOnly="True"/>
+        <Label x:Name="JobCodeLabel" Content="Select Job Codes File:" HorizontalAlignment="Left" Margin="10,130,0,0" FontWeight="Bold" Height="25" VerticalAlignment="Top"/>
+        <Button x:Name="JobCodeButton" Content="Browse" HorizontalAlignment="Left" Margin="10,156,0,146" Width="76" d:LayoutOverrides="Height" Click="JobCodeButton_Click_1"/>
+        <TextBox x:Name="JobCodeTextBox" Margin="91,156,23,146" Text="File" IsReadOnly="True"/>
+        <Label x:Name="UserEceptionFile" Content="Select User Exception File:" HorizontalAlignment="Left" Margin="10,196,0,0" FontWeight="Bold" Height="25" VerticalAlignment="Top"/>
+        <Button x:Name="UserExceptionButton" Content="Browse" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top" Width="75" Click="UserExceptionButton_Click"/>
+        <TextBox x:Name="UserExceptionTextBox" HorizontalAlignment="Left" Height="20" Margin="91,226,0,0" Text="File" VerticalAlignment="Top" Width="264" IsReadOnly="True"/>
+        <Button x:Name="OTDetailsButton" Content="Browse" HorizontalAlignment="Left" Margin="10,301,0,0" VerticalAlignment="Top" Width="75" Click="OTDetailsButton_click"/>
+        <Label x:Name="ImportFileLabel" Content="Select OT Details File:" HorizontalAlignment="Left" Margin="10,270,0,0" FontWeight="Bold" Height="25" VerticalAlignment="Top"/>
+        <TextBox x:Name="OTDetailsTextBox" HorizontalAlignment="Left" Height="20" Margin="91,301,0,0" Text="File" VerticalAlignment="Top" Width="264" IsReadOnly="True"/>
+        <Button x:Name="CalculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="282,19,0,0" VerticalAlignment="Top" Width="75" Click="CalculateButton_Click"/>
+
+    </Grid>
+</Window>

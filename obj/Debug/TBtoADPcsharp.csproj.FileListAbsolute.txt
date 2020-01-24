@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\TBtoADPcsharp\bin\Debug\TBtoADPcsharp.exe.config
+C:\Users\Admin\Desktop\TBtoADPcsharp\bin\Debug\TBtoADPcsharp.exe
+C:\Users\Admin\Desktop\TBtoADPcsharp\bin\Debug\TBtoADPcsharp.pdb
+C:\Users\Admin\Desktop\TBtoADPcsharp\obj\Debug\TBtoADPcsharp.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\TBtoADPcsharp\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\TBtoADPcsharp\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\TBtoADPcsharp\obj\Debug\TBtoADPcsharp_MarkupCompile.cache
+C:\Users\Admin\Desktop\TBtoADPcsharp\obj\Debug\TBtoADPcsharp_MarkupCompile.lref
+C:\Users\Admin\Desktop\TBtoADPcsharp\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\TBtoADPcsharp\obj\Debug\TBtoADPcsharp.g.resources
+C:\Users\Admin\Desktop\TBtoADPcsharp\obj\Debug\TBtoADPcsharp.Properties.Resources.resources
+C:\Users\Admin\Desktop\TBtoADPcsharp\obj\Debug\TBtoADPcsharp.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\TBtoADPcsharp\obj\Debug\TBtoADPcsharp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\TBtoADPcsharp\obj\Debug\TBtoADPcsharp.exe
+C:\Users\Admin\Desktop\TBtoADPcsharp\obj\Debug\TBtoADPcsharp.pdb
